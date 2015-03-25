@@ -1,13 +1,11 @@
-﻿define(["knockout", "section"], function(ko, Section) {
+define(["knockout", "section"], function(ko, Section) {
     window.ko = ko;
     return function() {
         var self = this;
 
         this.sections = ko.observableArray([
             new Section("intro"),
-            new Section("points"),
             new Section("one", "sample"),
-            new Section("two", "sample"),
             new Section("bye")
         ]);
 

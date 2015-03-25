@@ -1,12 +1,11 @@
 SamplePresentation
 ==================
 
-Reference sample for a presentation tool that can show live coded Knockout samples.  Live here: <http://rniemeyer.github.com/SamplePresentation/>
+Sample for a presentation to give brief intro to Knockout for the team before talking about specifics of portal development on an internal project.  Live here: <https://petevb.github.com/SamplePresentation/> and [source here](https://github.com/petevb/SamplePresentation).
 
-This is a heavily stripped down version of the Knockout app that I created for [this presentation](http://www.knockmeout.net/2012/08/thatconference-2012-session.html). This is not intended to be a library to create presentations.  It is just a sample that you could modify to suit your purposes.
+This is a modified version of [Ryan's presentation sample](https://github.com/rniemeyer/SamplePresentation) created for [that conference](http://www.knockmeout.net/2012/08/thatconference-2012-session.html). This is not intended to be a library to create presentations.  It is just a sample that you could modify to suit your purposes.
 
 Some notes about using the sample:
-
 * it needs to be hosted by a web server, as it uses require.js to make XHR calls that won't work with local files (I use Node's [http-server](http://blog.nodejitsu.com/http-server) for a quick server in any directory)
 * navigation between sections uses `Alt+Right` and `Alt+Left`, as just using the arrows or spacebar is problematic when using the code editor.
 * within a section `Alt+Down` and `Alt+Up` can move between the states for that section
@@ -19,3 +18,4 @@ Some notes on the structure:
 * look at *js/modules/one.js* and *js/modules/two.js* for how to specify the code samples, their states, and the various options that you can pass to them.
 * the code samples are intended to be flexible. You can choose to have the code load automatically for you with each state or you can move to the next state and type in the code yourself (with the option of using Alt+? in the editor to pull it in at anytime).
 
+*License:* **MIT** <http://www.opensource.org/licenses/mit-license.php>
