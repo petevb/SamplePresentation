@@ -1,12 +1,11 @@
 define(["knockout", "sample"], function(ko, Sample) {
 
-    return new Sample("Code Sample One", "one", [
-        new Sample.State("Some code","code"),
-        new Sample.State("Hide output","no-output", { hideResult: true }),
-        new Sample.State("Hide output and HTML", "just-js", { hideResult: true, hideHtml: true }),
-        new Sample.State("Load some JS/HTML not as code sample", "not-sample", { loadAsSection: true }),
-        new Sample.State("More code", "more"),
-        new Sample.State("More code", "more2")
+    return new Sample("Why knockout?", "one", [
+        new Sample.State("No Knockout, jQuery", "noKo"),
+        new Sample.State("Knockout view data-binding", "koBinding"),
+        new Sample.State("Knockout observables", "koObservable"),
+        new Sample.State("Knockout view model", "koViewModel"),
+        new Sample.State("Knockout observableArray", "koObservableArray"),
     ], true);  //this last true tells it to load each sample immediately when moving to it
 
 });
