@@ -1,7 +1,7 @@
 SamplePresentation
 ==================
 
-Sample for a presentation to give brief intro to Knockout for the team before talking about specifics of portal development on an internal project.  Live here: <https://petevb.github.com/SamplePresentation/> and [source here](https://github.com/petevb/SamplePresentation).
+Sample for a presentation to give a brief intro to Knockout to the team before talking about specifics of KO development on an internal project.  Live here: <https://petevb.github.io/SamplePresentation/> and [source here](https://github.com/petevb/SamplePresentation).
 
 This is a modified version of [Ryan's presentation sample](https://github.com/rniemeyer/SamplePresentation) created for [that conference](http://www.knockmeout.net/2012/08/thatconference-2012-session.html). This is not intended to be a library to create presentations.  It is just a sample that you could modify to suit your purposes.
 
